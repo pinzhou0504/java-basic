@@ -1,21 +1,23 @@
-package com.Pinzhou;
+package com.pinzhou;
 
 public class Bike {
+    public String wheelShape = "square";
     public int wheelNum;
     public String seatShape;
 
     public Bike(){
         wheelNum = 1;
+        wheelShape = "round";
     }
-
 
     public Bike(int wn){
         wheelNum= wn;
     }
+
     public void move() {
     }
     public String toString(){
-        return String.valueOf(this.wheelNum);
+        return String.valueOf(this.wheelNum) + " and " + String.valueOf(this.wheelShape);
     }
 
     public static void main(String [] args){
