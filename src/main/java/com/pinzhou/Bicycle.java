@@ -1,4 +1,4 @@
-package com.pinzhou;
+//package com.pinzhou;
 
 public class Bicycle extends Bike{
     public int pedalNum;

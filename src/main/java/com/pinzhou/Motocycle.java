@@ -1,4 +1,4 @@
-package com.pinzhou;
+//package com.pinzhou;
 
 public class Motocycle extends Bike{
     public String gasTank;
