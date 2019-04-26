@@ -1,8 +1,8 @@
-//package com.pinzhou;
+package com.pinzhou;
 
 public class Bike {
     public String wheelShape = "square";
-    public int wheelNum = 0;
+    public int wheelNum ;
     public String seatShape = null;
 
     public boolean refurbished = true;

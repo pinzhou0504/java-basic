@@ -1,9 +1,9 @@
-//package com.pinzhou;
+package com.pinzhou;
 
 public class Bicycle extends Bike{
     public int pedalNum;
     public Bicycle() {
-//        super();
+        super();
         wheelNum = 2;
     }
 

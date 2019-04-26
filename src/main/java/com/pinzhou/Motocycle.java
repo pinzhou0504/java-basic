@@ -1,14 +1,14 @@
-//package com.pinzhou;
+package com.pinzhou;
 
 public class Motocycle extends Bike{
     public String gasTank;
     public String motor;
-    public int pedalNum = 1;
+    public int pedalNum ;
 
 
     public Motocycle() {
-        pedalNum = 2;
-        wheelNum = 4;
+        pedalNum = 6;
+        wheelNum = 8;
     }
     public Motocycle (int wn) {
         wheelNum = wn;
@@ -18,10 +18,16 @@ public class Motocycle extends Bike{
         return String.valueOf(this.pedalNum)+" "+String.valueOf(this.wheelNum);
     }
     public static void main(String []args){
-        Motocycle m = new Motocycle();
-        Motocycle m1 = new Motocycle(5);
-        System.out.println(m);
-        System.out.println(m1);
+        String st1 = new String("1111");
+        String st2 = new String("1111");
+//        Motocycle m = new Motocycle();
+//        Motocycle m1 = new Motocycle(5);
+        if (st1.equals(st2))
+           System.out.println("True");
+        else
+            System.out.println("False");
+        System.out.println(st1);
+        System.out.println(st2);
     }
 }
 
