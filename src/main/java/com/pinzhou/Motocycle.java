@@ -29,5 +29,8 @@ public class Motocycle extends Bike{
         System.out.println(st1);
         System.out.println(st2);
     }
+//    public String toString(){
+//        return String.valueOf(this.pedalNum);
+//    }
 }
 
