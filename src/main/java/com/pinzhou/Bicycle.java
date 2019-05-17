@@ -38,6 +38,7 @@ public class Bicycle extends Bike{
         int result=17;
         result = result + pedalNum * 31;
         result = result + wheelNum * 31;
+//        result = result + move.hashCode;
         return result;
     }
 
