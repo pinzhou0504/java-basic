@@ -24,4 +24,30 @@ public class Bicycle extends Bike{
         System.out.println(b);
         System.out.println(b1);
     }
+
+    public void setPedalNum(int pedalNum){this.pedalNum=pedalNum; }
+
+    public int getPedalNum(){return this.pedalNum;}
+
+    public void setWheelNum(int wheelNum){this.wheelNum=wheelNum;}
+
+    public int getWheelNum(){return  this.wheelNum;}
+
+    @Override
+    public int hashCode() {
+        int result=17;
+        result = result + pedalNum * 31;
+        result = result + wheelNum * 31;
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object x) {
+        if (x == this) return true;
+        if(!(x instanceof Bicycle)) return false;
+        Bicycle bicycle = (Bicycle) x;
+        return bicycle.pedalNum == this.pedalNum &&
+                bicycle.wheelNum == this.wheelNum;
+
+    }
 }
