@@ -12,7 +12,7 @@ public class PeopleRidesBicycle {
         hashMap.put(b,"Pinzhou");
         hashMap.put(b1,"Ryo");
         System.out.println(hashMap.size());
-        
+
     }
 
 }
