@@ -2,7 +2,7 @@ package com.pinzhou;
 import java.util.Scanner;
 
 
-public class convert {
+public class Convert {
     public static void main(String [] args) {
 
         Scanner input = new Scanner(System.in);
